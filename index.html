@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотограф - Вероніка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Фотограф Вероніка</h1>
+        <p>Зберігаю найкращі моменти вашого життя</p>
+    </header>
+
+    <nav>
+        <a href="#portfolio">Портфоліо</a>
+        <a href="#services">Послуги</a>
+        <a href="#about">Про мене</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Ваша історія в кадрі</h1>
+        <p>Весільна, портретна, сімейна фотографія</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Портфоліо</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Приклад роботи 1">
+            <img src="photo2.jpg" alt="Приклад роботи 2">
+            <img src="photo3.jpg" alt="Приклад роботи 3">
+            <img src="photo4.jpg" alt="Приклад роботи 4">
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Послуги</h2>
+        <ul>
+            <li>Весільна фотозйомка</li>
+            <li>Портретна зйомка</li>
+            <li>Сімейна фотосесія</li>
+            <li>Індивідуальні фотосесії</li>
+        </ul>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Про мене</h2>
+        <p>Привіт! Я Вероніка, професійний фотограф із Києва. У своїй роботі я прагну передати щирі емоції та створити кадри, які будуть радувати вас багато років.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Контакти</h2>
+        <p>Телефон: +380 (97) 863-67-62</p>
+        <p>Email: [ваша електронна пошта]</p>
+        <p>Соціальні мережі: inst:bezretouch</p>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Фотограф Вероніка. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
